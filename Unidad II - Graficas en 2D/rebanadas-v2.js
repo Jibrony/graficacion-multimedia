@@ -6,6 +6,9 @@ function setup() {
   createCanvas(1000, 450);
   textSize(16);
 
+  label = createP('Carballo Caballero Jesús Alberto / Gutierrez Arce Andrey Julian');
+  label.position(20, 400);  
+
   // Texto y campos de entrada
   createP('Rebanadas').position(20, 0);
   inputSlices = createInput('0');
